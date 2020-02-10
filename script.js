@@ -1,11 +1,11 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-//create variables with the first and second number indicating the range of characters of that type in the unicode chart
+//create variables with the first and second number indicating the range of vales of that type in the unicode chart
 var lowCase = [97, 122];
 var upCase = [65, 90];
 var numCase = [48, 57];
-var specCase = [33, 57];
+var specCase = [33, 47];
 
 // Write password to the #password input
 function writePassword(){
@@ -60,7 +60,7 @@ function writePassword(){
         }
     }  
         
-//Use the length given to pick the total number of characters to use 
+//Use the length given to pick the total number to include 
 //Use String.CharCode to change value to character
     for(let i = 0; i < passLength; i++){
         password.push(String.fromCharCode(usrChoice[Math.floor(Math.random()*usrChoice.length)]));
