@@ -15,4 +15,7 @@ Based off the criteria given by the user, 1 array is made with all the values re
 
 Then, based off the length given, the array will loop that many times and randomly select values within that array and then convert them to the characters referenced using String.fromCharCode and join them into a new array which is then showed to the user.
 
+The deployed version can be found at:
+
+https://ericvasquez.github.io/Random-Password-Generator/
 
